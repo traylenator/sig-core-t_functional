@@ -22,6 +22,6 @@ jobs:
 name: Testing
 on:
  pull_request_target: 
-    branches: [ master ]
+    branches: [ '*' ]
  push: 
-    branches: [ master ]
+    branches: [ '*' ]
